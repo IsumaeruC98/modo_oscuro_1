@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div#texto {
+	width: 800px;
+	margin: 0 auto;
+	text-align: justify;
+	margin-top: 5px;
+}
+
+.boton_oscuro {
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: 50px auto;
+	padding: 10px;
+	border-radius: 50px;
+
+	color: #FFF;
+	font-size: 20px;
+	cursor: pointer;
+
+	background: #000;
+	background-image: url(luna.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	position: fixed;
+	bottom: 100px;
+	right: 0;
+
+	transition: 0.5s;
+}
+
+.boton_normal {
+	color: #000;
+
+	background: #FFF;
+	background-image: url(sol.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.fondo_normal {
+	background: #FFF;
+
+	transition: 0.5s;
+}
+
+.fondo_oscuro {
+	background: #000;
+}
+
+.boton_oscuro:hover {
+	opacity: 0.8;
+}
+
+.flecha {
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: 50px auto;
+	padding: 10px;
+	border-radius: 50px;
+	background: #000;
+
+	position: fixed;
+	bottom: 0;
+	right: 0;
+
+	background-image: url(flecha.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.flecha:hover {
+	opacity: 0.9;
+}
